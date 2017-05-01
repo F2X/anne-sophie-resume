@@ -1,0 +1,30 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header p {
+    text-transform: uppercase;
+    color: #E25822;
+}
+
+aside {
+    float: left;
+    width: 25%;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #E25822;
+    font-weight: normal;
+}
+
+a {
+    display: block;
+}
+input[type=tel] {
+    font-weight: bold;
+}
