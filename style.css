@@ -3,14 +3,26 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 8px;
+    display: flex;
+}
+
 header p {
     text-transform: uppercase;
     color: #E25822;
 }
 
 aside {
-    float: left;
-    width: 25%;
+    flex: none;
+    width: 310px;
+    text-align: justify;
+    padding: 0 16px;
+}
+
+section {
+    padding: 0 16px;
+    text-align: justify;
 }
 
 h2, h3 {
@@ -24,7 +36,19 @@ h3 {
 
 a {
     display: block;
+    text-decoration: none;
 }
-input[type=tel] {
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a[href^=tel] {
     font-weight: bold;
+    color: maroon;
+}
+
+a[href^=mailto] {
+    color: grey;
 }
